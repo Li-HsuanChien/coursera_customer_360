@@ -53,7 +53,9 @@ The User Interaction App is a mock application designed to facilitate user manag
 6. Run the application:
 
     ```bash
-    python3 manage.py runserver
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py runserver
     ```
 7. The application will be listening to `http://localhost:8000/` by default.
 
