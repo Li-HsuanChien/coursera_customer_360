@@ -21,7 +21,7 @@ The User Interaction App is a mock application designed to facilitate user manag
 2. Navigate to the project directory:
 
     ```bash
-    cd customer_360
+    cd customer_360_app/customer360
     ```
 
 3.  Set up a virtual environment (optional but recommended):
