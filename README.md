@@ -1,4 +1,10 @@
+<a name="readme-top"></a>
 # Customer 360 app
+
+### Built With
+
+* [![Django][Django]][Django-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 ## Overview
 The User Interaction App is a mock application designed to facilitate user management and communication. Users can be added to the system with details such as email, phone number, and address. The main page of the application provides a platform for interacting with users through various channels, including email, phone calls, SMS, and letters. Additionally, users can input summaries for each interaction.
@@ -141,3 +147,10 @@ Feel free to contribute to the development of this budget management system by c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
+[Django-url]: https://www.djangoproject.com/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
