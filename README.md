@@ -35,6 +35,30 @@
 
 The User Interaction App is a mock application designed to facilitate user management and communication. Users can be added to the system with details such as email, phone number, and address. The main page of the application provides a platform for interacting with users through various channels, including email, phone calls, SMS, and letters. Additionally, users can input summaries for each interaction.
 
+## Features
+
+**Adding a User**
+- Navigate to the "New Customer" section of the application.
+- Fill in the required details for the new user, including their email, phone number, and address.
+- Click the "Add" button to save the user information to the system.
+
+**Interacting with Users**
+- Access the main page of the application where the list of added users is displayed.
+- Choose a user from the list to interact with by toggling the checkboxes in the selected parameter row.
+- Click the "Interact" button to be redirected to the interaction page.
+- Select the desired communication channel.
+
+**Inputting Summaries**
+- After each interaction, you can input a summary to capture key points and details.
+- Locate the "Save interaction" section and enter the relevant information.
+- Save the summary to maintain a comprehensive history of user interactions.
+
+**Examining past interactions**
+- Navigate to the "Summary" section of the application.
+- Examine the past interactions in the displayed list.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Getting Started
 
 ### Prerequisites
