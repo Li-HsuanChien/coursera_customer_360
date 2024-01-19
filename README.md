@@ -47,7 +47,7 @@ The User Interaction App is a mock application designed to facilitate user manag
 5. Install the required dependencies (Django):
 
     ```bash
-    python3 -m pip install Django
+    python -m pip install Django
     ```
 
 6. Run the application:
