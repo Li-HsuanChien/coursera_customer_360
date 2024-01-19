@@ -63,7 +63,7 @@ The User Interaction App is a mock application designed to facilitate user manag
     ```
 7. The application will be listening to `http://localhost:8000/` by default.
 
-**Manual commands**
+**Using Docker Containers**
 
 1. Clone this repository to your local machine:
 
@@ -79,7 +79,7 @@ The User Interaction App is a mock application designed to facilitate user manag
 3. Build Docker image:
 
     ```bash
-        docker build -t <insert-your-own-image-name>
+        docker build -t <insert-your-own-image-name> .
     ```
 
 3. Run containers wth image:
