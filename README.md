@@ -1,6 +1,38 @@
+<a name="readme-top"></a>
+
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Customer 360 app
 
+### Built With
+
+* [![Django][Django]][Django-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 ## Overview
+
+[![Product Name Screen Shot One][product-screenshot-one]](https://github.com/Li-HsuanChien/customer_360_app)
+
+<hr>
+
+[![Product Name Screen Shot Two][product-screenshot-two]](https://github.com/Li-HsuanChien/customer_360_app)
+
+<hr>
+
+[![Product Name Screen Shot Three][product-screenshot-three]](https://github.com/Li-HsuanChien/customer_360_app)
+
+<hr>
+
+[![Product Name Screen Shot Four][product-screenshot-four]](https://github.com/Li-HsuanChien/customer_360_app)
+
+<hr>
+
 The User Interaction App is a mock application designed to facilitate user management and communication. Users can be added to the system with details such as email, phone number, and address. The main page of the application provides a platform for interacting with users through various channels, including email, phone calls, SMS, and letters. Additionally, users can input summaries for each interaction.
 
 ## Getting Started
@@ -63,29 +95,33 @@ The User Interaction App is a mock application designed to facilitate user manag
     ```
 7. The application will be listening to `http://localhost:8000/` by default.
 
-**Using Docker Containers**
+**Manual commands**
 
-1. Clone this repository to your local machine:
+1. Login to Docker Hub:
+
+    - Open a terminal or command prompt and run the following command to log in to Docker Hub:
 
     ```bash
-    git clone https://github.com/Li-HsuanChien/customer_360_app.git
+    docker login
+    ```
+    - Enter your Docker Hub username and password when prompted.
+
+2. Pull the Online Course App Image:
+
+    - Run the following command to pull the Online Course App Docker image from Docker Hub:
+
+    ```bash
+    docker pull shanechien/customer360
     ```
 
-2. Navigate to the project directory:
+3. Run the Container:
 
+    - Once the image is successfully pulled, you can run a container using the following command:
+    
     ```bash
-    cd customer_360_app/customer360
+    docker run -p 8000:8000 shanechien/customer360
     ```
-3. Build Docker image:
-
-    ```bash
-        docker build -t <insert-your-own-image-name> .
-    ```
-
-3. Run containers wth image:
-
-    ```bash
-        docker run -p 8000:8000 <insert-your-own-image-name>
+4. The application will be listening to `http://localhost:8000/` by default.
 
 
 
@@ -141,3 +177,26 @@ Feel free to contribute to the development of this budget management system by c
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[Django]: https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white
+[Django-url]: https://www.djangoproject.com/
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[product-screenshot-one]: images/snapshot1.jpg
+[product-screenshot-two]: images/snapshot2.jpg
+[product-screenshot-three]: images/snapshot3.jpg
+[product-screenshot-four]: images/snapshot4.jpg
+[contributors-shield]: https://img.shields.io/github/contributors/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[contributors-url]: https://github.com/Li-HsuanChien/customer_360_app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[forks-url]: https://github.com/Li-HsuanChien/customer_360_app/network/members
+[stars-shield]: https://img.shields.io/github/stars/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[stars-url]: https://github.com/Li-HsuanChien/customer_360_app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[issues-url]: https://github.com/Li-HsuanChien/customer_360_app/issues
+[license-shield]: https://img.shields.io/github/license/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[license-url]: https://github.com/Li-HsuanChien/customer_360_app/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/lihsuan-chien/
