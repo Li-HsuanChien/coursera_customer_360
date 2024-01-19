@@ -1,4 +1,13 @@
 <a name="readme-top"></a>
+
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Customer 360 app
 
 ### Built With
@@ -154,3 +163,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [Django-url]: https://www.djangoproject.com/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+
+[contributors-shield]: https://img.shields.io/github/contributors/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[contributors-url]: https://github.com/Li-HsuanChien/customer_360_app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[forks-url]: https://github.com/Li-HsuanChien/customer_360_app/network/members
+[stars-shield]: https://img.shields.io/github/stars/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[stars-url]: https://github.com/Li-HsuanChien/customer_360_app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[issues-url]: https://github.com/Li-HsuanChien/customer_360_app/issues
+[license-shield]: https://img.shields.io/github/license/Li-HsuanChien/customer_360_app.svg?style=for-the-badge
+[license-url]: https://github.com/Li-HsuanChien/customer_360_app/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/lihsuan-chien/
